@@ -1,8 +1,8 @@
 <p>
 CIFF Impact Portal shows the map of countries and regions where CIFF-funded programmes are implemented and evaluated.
-<br>
+</p>
 
-<h5>Standard Operating Procedure</h5>
+<h6>Standard Operating Procedure</h6>
 <ul>
 <li>Select a country by clicking any highlighted region on the map. CIFF investment(s) in this country will be listed on the top right panel. The number of evaluations per country is displayed on the map.</li>
 <li>Click any investment to see further information.
@@ -15,16 +15,21 @@ CIFF Impact Portal shows the map of countries and regions where CIFF-funded prog
 <li>Click <span class='fa fa-cog'></span> to perform additional setting to the map, such as toggle country labels, map scale, and auto-zoom functionality.</li>
 </ul>
 
-<h5>Disclaimer</h5>
-Maps used on this website are for general illustration only, and are not intended to be used for reference purposes. The representation of political boundaries does not necessarily reflect the organization's view on the legal status of a country or territory.
-<br>
+<h6>Disclaimer</h6>
+<p>Maps used on this website are for general illustration only, and are not intended to be used for reference purposes. The representation of political boundaries does not necessarily reflect the organization's view on the legal status of a country or territory.
+</p>
 
-<h5>Acknowledgement</h5>
-India Administrative Boundaries were sourced from: Ministry of Science and Technology, Government of India. Survey of India. Online Maps Portal. Administrative Boundary Database (<a href='https://onlinemaps.surveyofindia.gov.in/Digital_Product_Show.aspx' target='_blank'>OVSF/1M/7</a>).
-<br>
+<h6>Acknowledgement</h6>
+<ul>
+<li>India Administrative Boundaries were sourced from: Ministry of Science and Technology, Government of India. Survey of India. Online Maps Portal. Administrative Boundary Database (<a href='https://onlinemaps.surveyofindia.gov.in/Digital_Product_Show.aspx' target='_blank'>OVSF/1M/7</a>).
+</li>
 
-Nigeria Administrative Boundaries were sourced from: eHealth Africa and Proxy Logics (2020). Nigeria Operational State Boundaries. Geo-Referenced Infrastructure and Demographic Data for Development <a href='https://grid3.gov.ng/' target='_blank'>GRID3</a>.
-<br>
+<li>Nigeria Administrative Boundaries were sourced from: eHealth Africa and Proxy Logics (2020). Nigeria Operational State Boundaries. Geo-Referenced Infrastructure and Demographic Data for Development <a href='https://grid3.gov.ng/' target='_blank'>GRID3</a>.
+</li>
 
-The administrative boundaries for the remaining countries were sourced from <a href='https://geoboundaries.org' target='_blank'>geoboundaries.org</a> (<a href='https://doi.org/10.1371/journal.pone.0231866' target='_blank'>Rufalo et al., 2020</a>).
+<li>The administrative boundaries for the remaining countries were sourced from <a href='https://geoboundaries.org' target='_blank'>geoboundaries.org</a> (<a href='https://doi.org/10.1371/journal.pone.0231866' target='_blank'>Rufalo et al., 2020</a>).
+</li>
+</ul>
+
+<p>This web portal was developed by the Spatial Data Infrastructure (SDI) Team at WorldPop, and in particular Rhorom Priyatikanto from the WorldPop SDI team was responsible for the development of the tool. The work is funded by the Children's Investment Fund Foundation (CIFF)
 </p>

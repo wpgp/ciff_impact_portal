@@ -45,7 +45,7 @@ L.control.zoom({position:'bottomleft', zIndex:300}).addTo(map);
 L.DomEvent.disableClickPropagation(rightPanel);
 L.DomEvent.disableClickPropagation(leftPanel);
 
-map.attributionControl.addAttribution('| Built by <a href="https://sdi.worldpop.org" target="_blank">WorldPop SDI</a>')
+map.attributionControl.addAttribution(' Built by <a href="https://sdi.worldpop.org" target="_blank">WorldPop SDI</a>')
 map.invalidateSize();
 map.createPane('labels');
 map.getPane('labels').style.zIndex = 500;
