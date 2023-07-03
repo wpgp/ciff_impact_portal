@@ -31,5 +31,5 @@ CIFF Impact Portal shows the map of countries and regions where CIFF-funded prog
 </li>
 </ul>
 
-<p>This web portal was developed by the Spatial Data Infrastructure (SDI) Team at WorldPop, and in particular Rhorom Priyatikanto from the WorldPop SDI team was responsible for the development of the tool. The work is funded by the Children's Investment Fund Foundation (CIFF)
+<p>This web portal was developed by the Spatial Data Infrastructure (SDI) Team at WorldPop. The work is funded by the Children's Investment Fund Foundation (CIFF)
 </p>

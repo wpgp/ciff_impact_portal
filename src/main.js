@@ -21,7 +21,7 @@ const basemaps = {
         }),
     "voyager": L.tileLayer(
         'https://{s}.basemaps.cartocdn.com/rastertiles/voyager_nolabels/{z}/{x}/{y}{r}.png', {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            attribution: '<a href="https://www.openstreetmap.org/copyright">OSM</a> | <a href="https://carto.com/attributions">CARTO</a> | <a href="https://sdi.worldpop.org" target="_blank">WorldPop SDI</a>',
             subdomains: 'abcd',
             minZoom: 2,
             maxZoom: 14
@@ -45,7 +45,6 @@ L.control.zoom({position:'bottomleft', zIndex:300}).addTo(map);
 L.DomEvent.disableClickPropagation(rightPanel);
 L.DomEvent.disableClickPropagation(leftPanel);
 
-map.attributionControl.addAttribution(' Built by <a href="https://sdi.worldpop.org" target="_blank">WorldPop SDI</a>')
 map.invalidateSize();
 map.createPane('labels');
 map.getPane('labels').style.zIndex = 500;
