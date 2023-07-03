@@ -15,7 +15,7 @@ const filterParam = utils.getParameters(tb_val, selector);
 const basemaps = {
     "carto": L.tileLayer(
         "https://cartodb-basemaps-b.global.ssl.fastly.net/light_nolabels/{z}/{x}/{y}.png", {
-            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>',
+            attribution: '<a href="https://www.openstreetmap.org/copyright">OSM</a> | <a href="https://carto.com/attributions">CARTO</a> | <a href="https://sdi.worldpop.org" target="_blank">WorldPop SDI</a>',
             minZoom: 2,
             maxZoom: 14,
         }),
