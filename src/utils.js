@@ -133,9 +133,13 @@ export function updateMap(countries, regions, mapParam) {
     let country = $('#idSelectCountry').val();
     mapParam.regionLayer.eachLayer(function(l){
         let item = l.feature.properties;
+        let tooltip = L.tooltip();
         l.remove();
         if ((regions != null) && (regions.includes(item['RegionID'])) && (country == item['CountryID'])){
             l.setStyle(_config.regionStyle).addTo(mapParam.map)
+            tooltip.setLatLng([item.Lat, item.Lon])
+                .setContent(item.Region)
+                .addTo(mapParam.markerGroup);
         }
     })
 }
@@ -310,7 +314,7 @@ function removeAllLayers(_layer, _map) {
 }
 
 function showEvaluations(country, mapParam) {
-    verbose("showEvaluations")
+    //verbose("showEvaluations")
     let utils = {}
     var tb = mapParam.data.filter(function(row){
         let res = true;

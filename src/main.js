@@ -85,8 +85,8 @@ var regionLayer = L.geoJson(null, {
             mouseover: function (e) {
                 layer.setStyle({weight:2})
                 tooltip.setLatLng([e.target.feature.properties.Lat, e.target.feature.properties.Lon])
-                .setContent(e.target.feature.properties.Region)
-                .addTo(map);
+                    .setContent(e.target.feature.properties.Region)
+                    .addTo(map);
             },
             mouseout: function(e) {
                 layer.setStyle({weight:1});
