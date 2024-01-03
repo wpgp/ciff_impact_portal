@@ -241,7 +241,7 @@ function MainApp() {
 
         <div>
           <div className="float-end m-0">
-            <form action="/">
+            <form action="./">
               <button type="submit" className="btn btn-sm btn-danger" title="Reset filter">Reset</button>
             </form>
           </div>
