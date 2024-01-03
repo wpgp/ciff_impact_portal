@@ -1,11 +1,11 @@
 import * as React from 'react';
 import { MapContainer, GeoJSON, Marker, CircleMarker, Popup, Pane, TileLayer, useMap } from 'react-leaflet';
 import 'leaflet/dist/leaflet.css';
+import * as L from 'leaflet';
 import table from './data/impact_table.json';
 import boundary from './data/boundary.json';
 import { onlyUnique } from './utils';
 import { activeStyle, regionStyle, columns } from './config';  
-import * as L from 'leaflet';
 
 var main_map: any;
 

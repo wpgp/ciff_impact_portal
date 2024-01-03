@@ -3,11 +3,11 @@ import * as JSURL from "jsurl";
 import type { NavigateOptions } from "react-router-dom";
 import { Routes, Route, Link, useSearchParams } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.css';
+import parser from 'html-react-parser';
 import table from './data/impact_table.json';
 import { TheMap } from './Map';
 import { columns, detailColumns, longColumns } from './config'
 import { onlyUnique } from "./utils";
-import parser from 'html-react-parser';
 
 export default function App() {
   return (
