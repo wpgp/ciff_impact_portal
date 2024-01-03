@@ -1,0 +1,107 @@
+.App {
+  text-align: center;
+}
+
+.title {
+  margin: 0px;
+  padding: 5px 10px 0px 10px;
+  border-radius: 10px 10px 0px 0px;
+  float: left;
+  background-color: #e9546e;
+  color: white;
+}
+
+select {
+  width: 200px;
+}
+
+.btn.btn-sm {
+  border-radius: 7px;
+}
+
+td:first-child {
+  width: 70px;
+}
+td:nth-child(2) {
+  width: 180px;
+}
+
+#activityTable {
+  max-height: min(300px, 30vh);
+  margin: 0px;
+  padding: 0px;
+  overflow-y: auto;
+}
+
+#detailTable {
+  max-height: min(300px, 35vh);
+  margin: 0px;
+  padding: 0px;
+  overflow-y: auto;
+}
+
+.main-content {
+  position: absolute;
+  z-index: 0;
+  margin: 0px;
+  padding: 0px;
+}
+
+.leaflet-control-zoom{
+  position: relative;
+  left: -2px;
+  top: calc(100vh - 85px);
+}
+
+.panel-left {
+  left: 10px;
+  top: 10px;
+}
+
+.panel-right {
+  top: 70vh;
+  right: 10px;
+}
+
+.cmarker {
+  color: #000;
+  background-color: rgba(255,189,0,0.75);
+  border: 5px solid rgba(255,255,255,0.5);
+  width: 30px;
+  height: 30px;
+  border-radius: 15px;
+  text-align: center;
+  vertical-align: bottom;
+  font-size: 13px;
+}
+
+path.leaflet-interactive:focus {
+  outline: none;
+}
+
+[class*="panel-"] {
+  background-color: rgba(255,255,255,0.8);
+  box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  position: absolute;
+  width: calc(100% - 20px);
+  z-index: 10;
+  padding: 5px;
+  border-radius: 5px;
+}
+@media only screen and (min-width: 600px) {
+  /* for tablets */
+  .panel-left {
+    max-width: 200px;
+  }
+  .panel-right {
+    bottom: auto;
+    width: 200px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* for computer */
+  .panel-right {
+    top: 10px;
+    width: 350px;
+  }
+}
